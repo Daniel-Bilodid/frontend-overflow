@@ -1,0 +1,37 @@
+// Basic colors
+$background-dark: #181818; // Dark background for the main site
+$background-light: #222222; // Light background for blocks or cards
+$text-primary: #e0e0e0; // Primary text color (light gray)
+$text-secondary: #b0b0b0; // Secondary text color (lighter gray for less important text like labels or metadata)
+$highlight: #007acc; // Accent color for links, buttons, and highlights
+$hover-color: #005f8d; // Hover color for links and buttons (a darker shade of the accent color)
+
+// Headers
+$header-background: #121212; // Dark background for header sections
+$header-text: #ffffff; // Text color for header (white for contrast)
+
+// Buttons
+$button-background: #007acc; // Background color for buttons
+$button-text: #ffffff; // Text color for buttons (white)
+$button-hover-background: #005f8d; // Background color for buttons when hovered
+
+// Cards and Blocks
+$card-background: #2c2c2c; // Background color for cards or content blocks
+$card-border: #444444; // Border color for cards or blocks
+
+// Borders and Dividers
+$border-color: #333333; // Color for borders and dividers
+$input-border-color: #444444; // Border color for input fields
+
+// Alerts
+$error-color: #ff5c57; // Red color for error messages
+$warning-color: #ffb84d; // Yellow color for warnings
+$success-color: #28a745; // Green color for success messages
+
+// Shadows
+$box-shadow: rgba(
+  0,
+  0,
+  0,
+  0.5
+); // Shadow color for elements (subtle dark shadow)

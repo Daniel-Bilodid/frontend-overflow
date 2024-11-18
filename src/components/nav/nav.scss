@@ -1,0 +1,16 @@
+@import "../../variable";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  &__theme {
+    color: $header-text;
+  }
+  &__user {
+    display: flex;
+  }
+  &__input {
+    width: 600px;
+    height: 56px;
+  }
+}

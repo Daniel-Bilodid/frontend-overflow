@@ -1,5 +1,11 @@
-<script></script>
+<script setup>
+import Nav from "./components/nav/Nav.vue";
+</script>
 
-<template></template>
+<template>
+  <div id="app">
+    <Nav />
+  </div>
+</template>
 
 <style></style>
