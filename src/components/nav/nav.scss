@@ -3,14 +3,45 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+
+  &__logo {
+    font-family: $montserrat;
+    font-size: 25px;
+  }
   &__theme {
     color: $header-text;
+    &-icon {
+      cursor: pointer;
+      font-size: 20px;
+    }
+  }
+
+  &__profile {
+    &-icon {
+      cursor: pointer;
+      font-size: 20px;
+    }
   }
   &__user {
     display: flex;
+    gap: 20px;
+  }
+  &__search {
+    position: relative;
   }
   &__input {
-    width: 600px;
+    width: 550px;
     height: 56px;
+    background: $navbar-input-background;
+    border: none;
+    border-radius: 10px;
+    padding-left: 50px;
+    &-icon {
+      position: absolute;
+      left: 20px;
+      top: 20px;
+    }
   }
 }

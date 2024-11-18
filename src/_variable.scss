@@ -1,37 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+$montserrat: "Montserrat", sans-serif;
 // Basic colors
-$background-dark: #181818; // Dark background for the main site
-$background-light: #222222; // Light background for blocks or cards
-$text-primary: #e0e0e0; // Primary text color (light gray)
-$text-secondary: #b0b0b0; // Secondary text color (lighter gray for less important text like labels or metadata)
-$highlight: #007acc; // Accent color for links, buttons, and highlights
-$hover-color: #005f8d; // Hover color for links and buttons (a darker shade of the accent color)
+$background-dark: #1a1c29; // Dark background with a slight blue tint
+$background-light: #232536; // Light background with a blue undertone
+$text-primary: #e0e0e0; // Light gray text (primary)
+$text-secondary: #a6a6a6; // Light gray for secondary text
+$highlight: #4a7b9d; // Blue accent for links and buttons
+$hover-color: #3b5a76; // Dark blue for hover states
+
+// Input in Navbar
+$navbar-input-background: #3a4a5e; // Dark blue background for the input
+$navbar-input-border: #4a7b9d; // Blue border for the input
+$navbar-input-placeholder: #a6a6a6; // Light gray placeholder text color
+$navbar-input-text: #ffffff; // White text color for input
+$navbar-input-focus-border: #3b5a76; // Dark blue border when focused
+$navbar-input-focus-background: #232536; // Slightly lighter background when focused
 
 // Headers
-$header-background: #121212; // Dark background for header sections
-$header-text: #ffffff; // Text color for header (white for contrast)
+$header-background: #151820; // Very dark blue/black background for headers
+$header-text: #ffffff; // White text for contrast in headers
 
 // Buttons
-$button-background: #007acc; // Background color for buttons
-$button-text: #ffffff; // Text color for buttons (white)
-$button-hover-background: #005f8d; // Background color for buttons when hovered
+$button-background: #4a7b9d; // Blue for button background
+$button-text: #ffffff; // White text on buttons
+$button-hover-background: #3b5a76; // Dark blue when button is hovered
 
 // Cards and Blocks
-$card-background: #2c2c2c; // Background color for cards or content blocks
-$card-border: #444444; // Border color for cards or blocks
+$card-background: #262d3b; // Dark blue with black for card background
+$card-border: #3e4a5d; // Blue border for cards
 
 // Borders and Dividers
-$border-color: #333333; // Color for borders and dividers
-$input-border-color: #444444; // Border color for input fields
+$border-color: #3e4a5d; // Blue for borders and dividers
+$input-border-color: #4a7b9d; // Blue border for input fields
 
 // Alerts
-$error-color: #ff5c57; // Red color for error messages
-$warning-color: #ffb84d; // Yellow color for warnings
-$success-color: #28a745; // Green color for success messages
+$error-color: #e74c3c; // Red for error messages
+$warning-color: #f39c12; // Yellow for warning messages
+$success-color: #2ecc71; // Green for success messages
 
 // Shadows
-$box-shadow: rgba(
-  0,
-  0,
-  0,
-  0.5
-); // Shadow color for elements (subtle dark shadow)
+$box-shadow: rgba(0, 0, 0, 0.6); // Shadow color for elements
